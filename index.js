@@ -41,9 +41,11 @@ console.log(res);
 // task3
 var names=(element)=>element.marks<=40
 var res=scores.filter(names)
+var n=[]
 for(i=0;i<res.length;i++){
-console.log(res[i].name);
+    n=n.push(res[i].name)
 }
+console.log(n);
 
 
   // [32, 57, 22]
